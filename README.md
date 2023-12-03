@@ -22,8 +22,9 @@ This system will allow users to make their tax payments.
 
 # Sonar Usage
 
-## 1 - Check Project Files With SonarLint
+## 1 - SonarLint
 
+### - Check Project Files With SonarLint
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/0.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/1.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/2.png)
@@ -32,20 +33,18 @@ This system will allow users to make their tax payments.
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/5.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/6.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/7.png)
+
+### - Run test with coverage
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/8.png)
 
 ## 2 - Sonarcube
 
 ### - Run sonarqube over docker container using docker-compose
-
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/1.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/2.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/3.png)
 
-### - Configure sonar plugins to project
-![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/3.png)
-
-### - Execute sonarqube analyze from project
+### - Execute sonarqube pulgins and execute analyze from project
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/4.png)
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/5.png)
 
@@ -60,6 +59,8 @@ This system will allow users to make their tax payments.
 
 ### - Analyze project
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/3.png)
+
+### - Analyze result
 ![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/4.png)
 
 ## Made By
