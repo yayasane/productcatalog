@@ -20,35 +20,47 @@ This system will allow users to make their tax payments.
 
 **Quality Code:** Use Sonar to check and analyze project for code quality
 
-## Sonar Usage
+# Sonar Usage
 
-https://tax-clearance-system.onrender.com/swagger-ui/
+## 1 - Check Project Files With SonarLint
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/api-doc.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/0.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/1.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/2.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/3.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/4.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/5.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/6.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/7.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarlint/8.png)
 
-## Collection Postman
+## 2 - Sonarcube
 
-https://lively-crescent-469594.postman.co/workspace/Insoft~2cfa4b12-a76b-4a9f-abaf-c9f3d9f044d1/collection/19055684-2dd64e00-043b-4131-b8a3-9afd9ac7e725?action=share&creator=19055684
+### - Run sonarqube over docker container using docker-compose
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/collection-postman.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/1.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/2.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/3.png)
 
-# Features
+### - Configure sonar plugins to project
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/3.png)
 
-### Declarants management (CRUD)
+### - Execute sonarqube analyze from project
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/4.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/5.png)
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-declarant.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarants.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarant-declarations.png)
+### - Analyze result
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarqube/6.png)
 
-### Declarations management (CRUD)
+## 3 - Sonarcloud
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-declaration.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarations.png)
+### - Configure repository with sonarcloud
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/1.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/2.png)
 
-### Declaration payments (CRUD)
-
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-payment.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-payments.png)
+### - Analyze project
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/3.png)
+![](https://github.com/yayasane/productcatalog/blob/main/screenshots/sonarcloud/4.png)
 
 ## Made By
 
